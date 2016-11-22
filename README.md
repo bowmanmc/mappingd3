@@ -17,7 +17,7 @@ book. That being said, we'll be focusing on building maps, not the basics of
 JavaScript or building websites.
 
 ## Technologies
-We'll be using the latest version of D3.js (version 4.x) along with ES7 (ES2016).
+We'll be using the latest version of D3.js (version 4.x) along with ES6 (ES2015).
 
 ## About the Author
 Michael Bowman is a Principal Software Engineer with Applied Information Sciences

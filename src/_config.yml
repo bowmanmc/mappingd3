@@ -1,0 +1,13 @@
+
+# Site settings
+title: Designing Beautiful Maps with D3.js
+email: bowmanmc@gmail.com
+description: Designing Beautiful Maps with D3.js book
+baseurl: ""
+url: ""
+twitter_username: webslingerm
+github_username:  bowmanmc
+future: true
+
+# Build settings
+markdown: kramdown

@@ -1,27 +1,20 @@
 <!DOCTYPE html>
 <html>
 
-{% include head.html %}
+    {% include head.html %}
 
-<body>
+    <body>
 
-    <div class="page">
+        <div class="page">
 
-        <nav class="navigation">
-            <div class="navigation__title">
-                Designing Beautiful Maps with D3.js
-            </div>
+            {% include navigation.html %}
 
-            {% include table-of-contents.html %}
-        </nav>
+            <main class="content">
+                {{ content }}
+            </main>
 
-        <main class="content">
-            {{ content }}
-        </main>
-    </div>
+        </div>
 
-    {% include footer.html %}
-
-</body>
+    </body>
 
 </html>

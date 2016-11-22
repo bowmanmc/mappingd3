@@ -1,0 +1,59 @@
+$modular-scale-base: 16px;
+
+// Josefin Sans - Heading Font
+// <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700');
+
+// Libre Baskerville - Body Font
+// <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
+
+$font-heading: 'Josefin Sans', sans-serif;
+$font-body: 'Libre Baskerville', serif;
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-heading;
+    font-weight: 400;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+h3,
+h4 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: modular-scale(2);
+}
+h2 {
+    font-size: modular-scale(1.5);
+}
+h3 {
+    font-size: modular-scale(1.25);
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+body {
+    font-family: $font-body;
+    font-size: modular-scale(1);
+    line-height: 1.33em;
+
+}
+
+.navigation {
+    font-size: 0.75em;
+}

@@ -4,12 +4,14 @@
 @import 'normalize.css/normalize';
 @import 'bourbon/app/assets/stylesheets/bourbon';
 @import 'bourbon-neat/app/assets/stylesheets/neat';
+//@import 'gutenberg-web-type/src/style/gutenberg.scss';
 
 // Defaults
 @import 'defaults/colors';
 @import 'defaults/tags';
 @import 'defaults/typography';
-@import 'defaults/page';
+@import 'defaults/layout';
 
 // Components
+@import 'components/content';
 @import 'components/navigation';

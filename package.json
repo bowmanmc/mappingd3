@@ -18,7 +18,7 @@
     "prestart": "npm-run-all start-message clean",
     "start": "npm run sass && npm run jekyll && npm-run-all --parallel browsersync watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "echo \"@@@@ #### Running watch...\" && npm-run-all watch:jekyll watch:js watch:sass",
+    "watch": "npm-run-all --parallel watch:jekyll watch:sass",
     "watch:jekyll": "nodemon -w src -e html,md,png,jpg,gif,svg,yml,xml,js,css --ignore src/javascript --ignore src/sass --delay 1 -x \"npm run jekyll\"",
     "watch:js": "webpack -d --progress --colors --watch",
     "watch:sass": "nodemon -e scss -w src/sass -x \"npm run sass\""

@@ -1,0 +1,12 @@
+body,
+html {
+    background: $clr-bg;
+    color: $clr-txt;
+    height: 100%;
+}
+
+body {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+}

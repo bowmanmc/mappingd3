@@ -5,15 +5,22 @@
 
 <body>
 
-    <div class="">
-        {% include navbar.html %}
+    <div class="page">
 
-        <div class="content">
+        <nav class="navigation">
+            <div class="navigation__title">
+                Designing Beautiful Maps with D3.js
+            </div>
+
+            {% include table-of-contents.html %}
+        </nav>
+
+        <main class="content">
             {{ content }}
-        </div>
-
-        {% include footer.html %}
+        </main>
     </div>
+
+    {% include footer.html %}
 
 </body>
 

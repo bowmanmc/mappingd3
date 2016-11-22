@@ -38,3 +38,5 @@ jspm_packages
 
 # Built files
 src/styles
+.jekyll-metadata
+build

@@ -1,17 +1,8 @@
-$modular-scale-base: 16px;
+$modular-scale-base: 14px;
 
-// Josefin Sans - Heading Font
-// <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700');
 
-// Libre Baskerville - Body Font
-// <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
-
-//$font-heading: 'Josefin Sans', sans-serif;
-$font-heading: 'Franklin ITC', sans-serif;
-//$font-body: 'Libre Baskerville', serif;
-$font-body: georgia, serif;
+$font-heading: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+$font-body: Constantia, 'Lucida Bright', Lucidabright, 'Lucida Serif', Lucida, 'DejaVu Serif', 'Bitstream Vera Serif', 'Liberation Serif', Georgia, serif;
 
 
 h1,
@@ -35,15 +26,16 @@ h4 {
 }
 
 h1 {
-    font-size: modular-scale(2);
+    font-size: modular-scale(3);
 }
 h2 {
     font-size: modular-scale(1.5);
 }
 h3 {
-    font-size: modular-scale(1.25);
+    font-size: modular-scale(1);
     font-style: italic;
 }
+
 
 strong {
     font-weight: bold;

@@ -1,15 +1,17 @@
 
-$theme-pagebg: #fffcf9;
-$theme-sidebar: #435257; // #8ba9b2; //#dfdedd;
-$theme-dark: #43464c; // #23262c;
+$theme-pagebg: #fffefc;
+$theme-sidebar: #435257;
+$theme-sidebar-alt: #6e96a3;
+$theme-dark: #43464c;
 
 $clr-white: #ffffff;
 $clr-black: #000000;
 
-
 $clr-bg: $theme-pagebg;
 $clr-txt: $theme-dark;
 
+$clr-link: #cc510b;
+
 $clr-sidebar-bg: $theme-sidebar;
-$clr-sidebar-title: #6e96a3;
+$clr-sidebar-title: $theme-sidebar-alt;
 $clr-sidebar-txt: $theme-pagebg;

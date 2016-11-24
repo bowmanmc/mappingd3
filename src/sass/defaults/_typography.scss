@@ -8,8 +8,10 @@ $modular-scale-base: 16px;
 // <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
 
-$font-heading: 'Josefin Sans', sans-serif;
-$font-body: 'Libre Baskerville', serif;
+//$font-heading: 'Josefin Sans', sans-serif;
+$font-heading: 'Franklin ITC', sans-serif;
+//$font-body: 'Libre Baskerville', serif;
+$font-body: georgia, serif;
 
 
 h1,
@@ -51,7 +53,7 @@ body {
     font-family: $font-body;
     font-size: modular-scale(1);
     line-height: 1.414em;
-
+    text-rendering: optimizeLegibility;
 }
 
 .navigation {

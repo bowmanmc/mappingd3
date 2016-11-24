@@ -5,3 +5,15 @@
         display: block;
     }
 }
+
+
+.chapter-toc {
+    border-top: 1px solid $clr-sidebar-title;
+    display: inline-block;
+    margin-top: 2.0em;
+
+    a {
+        display: block;
+        margin: 0.25em 0.5em;
+    }
+}

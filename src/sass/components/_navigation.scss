@@ -4,6 +4,12 @@
     font-family: $font-heading;
     margin: 0;
     padding: 1.0em;
+
+    ul {
+        list-style: none;
+        padding-left: 0.5em;
+    }
+
 }
 
 .navigation__title {

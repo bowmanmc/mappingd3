@@ -7,10 +7,12 @@
 
     .content {
         flex: 1;
-        min-height: 100%;
+        height: 100%;
+        overflow-y: auto;
     }
 
     .navigation {
         // expand for content... look at padding-right on .navigation a
+        overflow-y: auto;
     }
 }

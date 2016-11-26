@@ -17,3 +17,14 @@
         margin: 0.25em 0.5em;
     }
 }
+
+.author-headshot {
+    border: 1px solid $clr-white;
+    border-radius: 50%;
+    box-shadow: 0 0 7px $clr-black;
+    float: left;
+    height: 192px;
+    margin-right: 3.0em;
+    //shape-outside: circle();
+    width: 192px;
+}

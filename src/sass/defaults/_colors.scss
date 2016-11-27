@@ -11,6 +11,7 @@ $clr-bg: $theme-pagebg;
 $clr-txt: $theme-dark;
 
 $clr-link: #cc510b;
+$clr-link-hover: lighten($clr-link, 20%);
 
 $clr-sidebar-bg: $theme-sidebar;
 $clr-sidebar-title: $theme-sidebar-alt;

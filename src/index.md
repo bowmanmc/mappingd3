@@ -14,7 +14,7 @@ not only create maps, but create beautiful and engaging maps to assist you in
 telling your story.
 
 All of the code used in this book (as well as the book itself!) is available
-on GitHub at [https://github.com/bowmanmc/mappingd3](https://github.com/bowmanmc/mappingd3).
+on GitHub at [https://github.com/bowmanmc/mappingd3](https://github.com/bowmanmc/mappingd3){:target="_blank"}.
 Check there for the latest updates and to file any issues you may find while
 reading.
 

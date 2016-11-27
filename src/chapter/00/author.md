@@ -18,3 +18,13 @@ Community College in Dayton, Ohio where he teaches evening courses in their
 Computer Science department. He also volunteers for Code for Dayton, a Code
 for America Brigade, and is the founder and lead organizer for the Dayton
 Data Visualization meetup.
+
+
+* * *
+
+<div class="chapter-toc">
+    <a href="/chapter/00/index.html">Front Matter</a>
+    <a href="/chapter/00/author.html">About the Author</a>
+    <a href="/chapter/00/prerequisites.html">Prerequisites</a>
+    <a href="/chapter/00/feedback.html">Reader Feedback and Support</a>
+</div>

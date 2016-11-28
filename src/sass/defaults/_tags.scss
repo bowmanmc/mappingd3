@@ -29,3 +29,18 @@ hr {
 p {
     margin-bottom: 1.5em;
 }
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 0.35em;
+}
+
+li:before {
+    color: $clr-list-bullet;
+    content: '\2022 ';
+    padding-right: 0.5em;
+}

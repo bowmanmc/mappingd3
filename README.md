@@ -4,28 +4,13 @@
 This is the repository for a book on creating and designing beautiful maps with
 D3.js.
 
-## Objectives
-The reader will walk away from this book with the skills to design beautiful and
-engaging maps for use in infographics, websites, and publications. The
-main tool we'll be using is D3.js, but will include many concepts from the
-cartography and design fields that will be transferrable to whatever tools the
-reader decides to build maps with in the future.
-
-## Prerequisites
-No experience with D3.js or JavaScript will be necessary for readers of this
-book. That being said, we'll be focusing on building maps, not the basics of
-JavaScript or building websites.
-
-## Technologies
-We'll be using the latest version of D3.js (version 4.x) along with ES6 (ES2015).
-
-## About the Author
-Michael Bowman is a Principal Software Engineer with Applied Information Sciences
-in Dayton, Ohio. His work as a defense contractor supporting the National Air and
-Space Intelligence Center (NASIC) and the National Geospatial-Intelligence Agency
-(NGA), involves developing web-based data visualizations for use within the
-Intelligence Community. Michael is the lead organizer of the Dayton Data
-Visualization group and teaches Computer Science evening courses at Sinclair
-Community College. You can find him online at
-[twitter](https://twitter.com/webslingerm)
-and [github](https://github.com/bowmanmc).
+## Contributing
+I'd love some help! There are a few things you need to know to get the project
+up and running on your local box:
+- Install [Jekyll](https://jekyllrb.com/). The exact insctructions
+depend on your platform, but the npm scripts used to build this site expect there
+to be a "jekyll" command available from a terminal.
+- Install [Node.js](https://nodejs.org). This should include an "npm" executable.
+- Open a terminal, navigate to the root of where you checked this project out to, and
+execute `npm install`.
+- Once that is complete, run `npm start` and open a browser to http://localhost:9000

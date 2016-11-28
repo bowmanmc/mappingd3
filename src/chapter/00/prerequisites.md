@@ -47,14 +47,14 @@ has some sort of auto-completion and support for HTML, CSS, and JavaScript. Also
 sure you're using a *code editor*. Microsoft Word and other text writing software won't
 save your files in a format we can run.
 
-* [Atom](http://atom.io/){:target="_blank"} - This is my personal favorite and what I use
+[Atom](http://atom.io/){:target="_blank"} - This is my personal favorite and what I use
 on a day to day basis. It is free and open source, developed by GitHub, and is especially good
 for web and JavaScript development.
 
-* [SublimeText](https://www.sublimetext.com/){:target="_blank"} - This is an extremely fast and
+[SublimeText](https://www.sublimetext.com/){:target="_blank"} - This is an extremely fast and
 lightweight commercial code editor that many people love.
 
-* [WebStorm](https://www.jetbrains.com/webstorm/){:target="_blank"} - WebStorm is another commercial editor
+[WebStorm](https://www.jetbrains.com/webstorm/){:target="_blank"} - WebStorm is another commercial editor
 that many respected web developers in the industry love.
 
 
